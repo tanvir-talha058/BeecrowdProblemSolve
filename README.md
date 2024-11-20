@@ -1,1 +1,1 @@
-# URI-Online-Judge-Problem-Solve
+Beecrowd Problem Solving
