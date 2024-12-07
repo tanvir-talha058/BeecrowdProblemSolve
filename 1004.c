@@ -6,5 +6,6 @@ int main() {
     scanf("%f %f",& R,A);
     printf("A=%f",3.14159*R*R);
 
+    
     return 0;
 }
