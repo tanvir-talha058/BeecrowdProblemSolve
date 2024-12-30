@@ -1,0 +1,20 @@
+import sys
+input = sys.stdin.read
+data = input().splitlines()
+
+N = int(data[0]) 
+P, C, Q = data[1].split()
+P = int(P)
+Q = int(Q)
+
+if C == '+':
+    result = P + Q
+elif C == '*':
+    result = P * Q
+else:
+    raise ValueError("Invalid operator")
+
+if result > N:
+    print("OVERFLOW")
+else:
+    print("OK")
