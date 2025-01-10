@@ -2,8 +2,7 @@
 
 int main()
 {
- int seconds;
-    
+ int seconds; 
  scanf("%d", &seconds);
     
  int hours = seconds / 3600;
